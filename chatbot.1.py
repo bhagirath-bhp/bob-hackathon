@@ -51,7 +51,7 @@ def decipher(audio_path=None, text_input=None):
         pygame.time.Clock().tick(10)
 
     os.remove("output.mp3")
-    return completion_reply, "./output.mp3"
+    return completion_reply, "output.mp3"
 
 # Create Gradio interface with multiple optional inputs
 interface = gr.Interface(
