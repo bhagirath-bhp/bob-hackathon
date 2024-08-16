@@ -1,0 +1,8 @@
+python-dotenv
+gradio
+openai
+pygame
+requests
+numpy
+sounddevice
+soundfile
